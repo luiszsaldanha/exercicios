@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf');
+}
+/*#238636*/
+body{
+    background-color: #67c891 ;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+menu{
+    
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+}
+button{
+    font-family: cursive;
+    color: white;
+    background-color: rgba(19, 66, 19, 0.315);
+    border: none;
+}
+menu:hover > button {
+    color: rgb(0, 0, 0);
+}
+header > h1{
+    font-family: cursive;
+    background-image: none;
+    margin-top: 0px;
+}
+h1,h2{
+    font-family: android;
+    background-image: linear-gradient(to right, rgba(96, 223, 121, 0.569) 0%, white);
+    padding: 3px;
+   
+}
+article{
+    background-image: none;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to bottom, #4eaa60 20%, rgba(0, 0, 0, 0.519));
+    text-align: center;
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+main{
+    margin: 0px 100px 10px 100px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px;
+}
+div{
+    text-align: center;
+}
+#video{
+    background-color: green;
+    height: 300px;
+}
+
+h3{
+    background-image: linear-gradient(to right, green, white);
+    border-radius: 5px 0px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.dentro{
+    padding-left: 5px;
+
+    text-align: justify;
+    background-color: rgb(75, 129, 75);
+
+}
+.lista{text-align: left;
+    list-style-position: aside;
+
+}
+footer{
+    text-align: center;
+    background-color: forestgreen;
+    
+}

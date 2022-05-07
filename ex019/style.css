@@ -1,0 +1,30 @@
+@charset "UTF-8"
+/*
+  em HTML é ID = CSS é #
+  em HRML é class = CSS é .
+*/
+/*o id sobrepoe o class sempre, herdando oque esta na camada de cima*/
+body{
+    background-color: rgb(214, 59, 59);}
+h1{
+    color: darkblue;
+}
+
+#principal{
+    text-align: center;
+    background-color: rgb(0, 255, 76);
+}
+
+h2{
+    color: cyan;
+}
+.basico{
+    color: chartreuse;
+
+}
+.intermediario{
+color: rgb(208, 255, 0);
+}
+.avançado{
+color: rgb(255, 60, 0);
+}

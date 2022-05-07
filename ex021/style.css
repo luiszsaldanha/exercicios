@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{ 
+    font-family: sans-serif;
+    background-color: rgb(80, 83, 83);
+    margin: 3px;
+    
+}
+header{
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px;
+}
+nav{
+    padding: 1px;
+    background-color: gray;
+    box-shadow: 1px 1px 1px black;
+}
+nav > a{
+    color: red;
+    padding: 3px;
+    text-decoration: none;
+}
+article{
+    padding: px;
+    background-color: rgb(129, 134, 123);
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(129, 134, 123);
+}
+footer > p{
+    margin: 0px;
+}
+    
